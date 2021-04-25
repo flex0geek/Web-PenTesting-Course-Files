@@ -1,0 +1,24 @@
+<?php
+
+// updated
+class User{
+	
+	public $u;
+	public $r;
+	public $dn;
+
+}
+
+// still in use
+class getDate{
+	public $command2GetDate;
+
+	function __construct($d){
+		$this->command2GetDate = $d;
+	}
+
+	function __wakeup(){
+		system($this->command2GetDate);
+	}
+}
+

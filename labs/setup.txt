@@ -1,0 +1,6 @@
+Create Database called test;
+Create Table called comments (uname, comment, link) # Add Dummy Values
+Create Table called books (name, auther, story) # Add Dummy Values
+Create Table called contact (name, email, message, user_agent)
+Create Table called users (username, pass) # Add Dummy User guest:guest
+Create Table called users_csrf (username, email, password) # Add Dummy User guest:guest
